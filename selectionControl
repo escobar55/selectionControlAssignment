@@ -1,0 +1,28 @@
+1.Process customer record 
+prompt user to enter customer name, purchase amount and tax percentage 
+IF tax percentage equals to 0%
+   THEN apply tax exempt and compute the total amount due
+IF tax percentage equals to 3%
+   THEN compute states tax only and the total amount due
+IF tax percentage equals to 5%
+   THEN compute federal and state sales tax and the total amount due
+IF tax percentage equals to 7%
+   THEN compute special sales tax and the total amount due
+print the customer's name 
+print the purchase amount
+print the sales tax 
+print the total amount due
+
+
+2.Calculate employee's pay 
+Prompt user to enter their employee number 
+Prompt user to enter their hourly pay rate 
+Prompt user to enter number of hours worked in the week 
+IF the pay rate is less or equal to 25.00 
+   AND IF the number of hours are less or equal to 60 
+   THEN compute employee weekly pay (hour worked * number of hours) 
+   AND PRINT The weekly payment for employee number with hourly pay rate and number of hours worked
+ELSE PRINT error message for employee number with hourly pay rate and number of hours worked
+
+
+
